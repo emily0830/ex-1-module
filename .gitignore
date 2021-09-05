@@ -1,0 +1,10 @@
+E, 11:08 AM
+function addhundred(a, b){
+    while (b<=100){
+        a+b
+        b=1+b
+    }
+    return
+}
+addhundred(1, 0)
+module.exports = {addhundred}
